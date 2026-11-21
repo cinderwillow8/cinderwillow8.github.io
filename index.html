@@ -1,0 +1,1847 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>91干逼com - 官方视频品牌 | 原创高清内容社区</title>
+<meta name="description" content="91干逼com官方网站，面向创作者与观众的高品质视频内容社区，深耕原创内容生态，提供专业高清影像与真实温暖的品牌故事。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Cpath d='M24 20l22 12-22 12z' fill='%23fef3c7'/%3E%3C/svg%3E">
+<style>
+:root{
+  --gw-teal:#0f766e;
+  --gw-teal-dark:#0b4f4a;
+  --gw-amber:#f59e0b;
+  --gw-amber-soft:#fef3c7;
+  --gw-ink:#14232b;
+  --gw-slate:#4a5f68;
+  --gw-mist:#f2f6f5;
+  --gw-line:#d8e4e1;
+  --gw-white:#ffffff;
+  --gw-radius:16px;
+  --gw-shadow:0 10px 30px rgba(15,80,74,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;
+  color:var(--gw-ink);
+  background:var(--gw-white);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+ul{list-style:none;}
+
+.gw-sticky-head{
+  position:sticky;
+  top:0;
+  z-index:90;
+}
+.gw-notice-bar{
+  background:linear-gradient(90deg,var(--gw-teal-dark),var(--gw-teal));
+  color:#e6fffb;
+  font-size:13px;
+  padding:8px 20px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  overflow:hidden;
+}
+.gw-notice-tag{
+  flex:none;
+  background:var(--gw-amber);
+  color:#3b2600;
+  font-weight:700;
+  font-size:12px;
+  padding:1px 9px;
+  border-radius:20px;
+  letter-spacing:.5px;
+}
+.gw-notice-track{
+  display:flex;
+  gap:36px;
+  white-space:nowrap;
+  animation:gw-marquee 26s linear infinite;
+}
+.gw-notice-track span{opacity:.95;}
+@keyframes gw-marquee{
+  from{transform:translateX(0);}
+  to{transform:translateX(-50%);}
+}
+
+.gw-header{
+  background:rgba(255,255,255,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--gw-line);
+}
+.gw-header-inner{
+  max-width:1200px;
+  margin:0 auto;
+  padding:13px 20px;
+  display:flex;
+  align-items:center;
+  gap:26px;
+}
+.gw-logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:800;
+  font-size:19px;
+  letter-spacing:.5px;
+  color:var(--gw-teal-dark);
+  flex:none;
+}
+.gw-logo-mark{
+  width:38px;height:38px;border-radius:11px;
+  background:linear-gradient(135deg,var(--gw-teal),#14b8a6);
+  display:grid;place-items:center;
+  color:#fef3c7;
+  font-size:16px;
+  box-shadow:0 6px 14px rgba(15,118,110,.32);
+}
+.gw-logo-sub{
+  display:block;
+  font-size:10px;
+  font-weight:500;
+  color:var(--gw-slate);
+  letter-spacing:2px;
+  margin-top:-3px;
+}
+.gw-nav{
+  display:flex;
+  gap:22px;
+  font-size:14.5px;
+  flex:1;
+}
+.gw-nav a{
+  color:var(--gw-slate);
+  padding:5px 2px;
+  border-bottom:2px solid transparent;
+  transition:color .2s,border-color .2s;
+  white-space:nowrap;
+}
+.gw-nav a:hover{color:var(--gw-teal);border-bottom-color:var(--gw-teal);}
+.gw-search{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  background:var(--gw-mist);
+  border:1px solid var(--gw-line);
+  border-radius:999px;
+  padding:4px 6px 4px 14px;
+  flex:none;
+  width:230px;
+  transition:border-color .2s,box-shadow .2s;
+}
+.gw-search:focus-within{border-color:var(--gw-teal);box-shadow:0 0 0 3px rgba(15,118,110,.12);}
+.gw-search input{
+  border:none;background:none;outline:none;
+  font-size:13.5px;width:100%;color:var(--gw-ink);
+}
+.gw-search button{
+  background:var(--gw-teal);
+  color:#fff;
+  font-size:12.5px;
+  padding:5px 11px;
+  border-radius:999px;
+  transition:background .2s;
+}
+.gw-search button:hover{background:var(--gw-teal-dark);}
+.gw-search-hint{
+  font-size:12px;
+  color:var(--gw-teal);
+  padding:0 20px 6px;
+  max-width:1200px;
+  margin:0 auto;
+  display:none;
+}
+.gw-search-hint.gw-show{display:block;}
+.gw-burger{
+  display:none;
+  flex-direction:column;
+  gap:5px;
+  padding:6px;
+  margin-left:auto;
+}
+.gw-burger span{width:22px;height:2px;background:var(--gw-teal-dark);border-radius:2px;transition:.25s;}
+.gw-burger.gw-open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.gw-burger.gw-open span:nth-child(2){opacity:0;}
+.gw-burger.gw-open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+.gw-mobile-nav{
+  display:none;
+  flex-direction:column;
+  border-bottom:1px solid var(--gw-line);
+  background:#fff;
+  padding:8px 20px 16px;
+}
+.gw-mobile-nav a{
+  padding:11px 4px;
+  font-size:15px;
+  color:var(--gw-slate);
+  border-bottom:1px dashed var(--gw-line);
+}
+.gw-mobile-nav a:last-child{border-bottom:none;}
+.gw-mobile-nav.gw-open{display:flex;}
+
+main{overflow:hidden;}
+.gw-section{
+  max-width:1200px;
+  margin:0 auto;
+  padding:66px 20px;
+  scroll-margin-top:104px;
+}
+.gw-section-tint{background:var(--gw-mist);}
+.gw-section-tint .gw-section{padding-top:66px;padding-bottom:66px;}
+.gw-sec-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:34px;
+  flex-wrap:wrap;
+}
+.gw-eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:12.5px;
+  font-weight:700;
+  letter-spacing:2px;
+  color:var(--gw-teal);
+  text-transform:uppercase;
+  margin-bottom:9px;
+}
+.gw-eyebrow::before{
+  content:"";
+  width:22px;height:2px;background:var(--gw-amber);border-radius:2px;
+}
+.gw-h2{
+  font-size:clamp(23px,3vw,32px);
+  font-weight:800;
+  letter-spacing:.5px;
+  line-height:1.35;
+}
+.gw-sec-desc{
+  font-size:14.5px;
+  color:var(--gw-slate);
+  max-width:520px;
+}
+
+/* Hero */
+.gw-hero{
+  background:
+    radial-gradient(900px 480px at 88% -10%,rgba(245,158,11,.18),transparent 60%),
+    radial-gradient(800px 460px at 5% 110%,rgba(20,184,166,.16),transparent 60%),
+    linear-gradient(160deg,#ffffff 0%,#eef7f5 100%);
+  border-bottom:1px solid var(--gw-line);
+}
+.gw-hero-inner{
+  max-width:1200px;
+  margin:0 auto;
+  padding:70px 20px 64px;
+  display:grid;
+  grid-template-columns:6fr 5fr;
+  gap:48px;
+  align-items:center;
+}
+.gw-hero-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:#fff;
+  border:1px solid var(--gw-line);
+  border-radius:999px;
+  padding:6px 15px;
+  font-size:12.5px;
+  color:var(--gw-teal-dark);
+  font-weight:600;
+  box-shadow:var(--gw-shadow);
+  margin-bottom:20px;
+}
+.gw-hero-badge i{
+  width:8px;height:8px;border-radius:50%;
+  background:var(--gw-amber);
+  box-shadow:0 0 0 4px rgba(245,158,11,.18);
+}
+.gw-hero h1{
+  font-size:clamp(38px,5.2vw,60px);
+  font-weight:900;
+  letter-spacing:1px;
+  line-height:1.14;
+  color:var(--gw-teal-dark);
+  margin-bottom:10px;
+}
+.gw-hero h1 em{
+  font-style:normal;
+  color:var(--gw-teal);
+  position:relative;
+}
+.gw-hero h1 em::after{
+  content:"";
+  position:absolute;left:0;right:0;bottom:6px;
+  height:12px;background:rgba(245,158,11,.35);
+  border-radius:4px;z-index:-1;
+}
+.gw-hero-slogan{
+  font-size:19px;
+  font-weight:700;
+  color:var(--gw-ink);
+  margin-bottom:16px;
+  letter-spacing:.5px;
+}
+.gw-hero-intro{
+  font-size:15px;
+  color:var(--gw-slate);
+  margin-bottom:26px;
+  text-align:justify;
+}
+.gw-hero-stats{
+  display:flex;
+  gap:34px;
+  flex-wrap:wrap;
+  margin-bottom:30px;
+}
+.gw-hero-stat b{
+  display:block;
+  font-size:26px;
+  font-weight:900;
+  color:var(--gw-teal);
+  letter-spacing:.5px;
+}
+.gw-hero-stat span{
+  font-size:12.5px;
+  color:var(--gw-slate);
+  letter-spacing:1px;
+}
+.gw-hero-actions{display:flex;gap:14px;flex-wrap:wrap;}
+.gw-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:14.5px;
+  font-weight:700;
+  padding:12px 26px;
+  border-radius:999px;
+  transition:transform .2s,box-shadow .2s,background .2s,color .2s;
+}
+.gw-btn-primary{
+  background:var(--gw-teal);
+  color:#fff;
+  box-shadow:0 10px 24px rgba(15,118,110,.30);
+}
+.gw-btn-primary:hover{background:var(--gw-teal-dark);transform:translateY(-2px);}
+.gw-btn-ghost{
+  background:#fff;
+  color:var(--gw-teal-dark);
+  border:1.5px solid var(--gw-line);
+}
+.gw-btn-ghost:hover{border-color:var(--gw-teal);color:var(--gw-teal);transform:translateY(-2px);}
+
+.gw-hero-visual{
+  position:relative;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 26px 60px rgba(11,79,74,.24);
+  aspect-ratio:16/11;
+}
+.gw-hero-visual img{width:100%;height:100%;object-fit:cover;}
+.gw-hero-play{
+  position:absolute;
+  inset:0;
+  display:grid;
+  place-items:center;
+  background:linear-gradient(180deg,rgba(11,79,74,.06),rgba(11,79,74,.44));
+}
+.gw-hero-play i{
+  width:74px;height:74px;border-radius:50%;
+  background:rgba(255,255,255,.92);
+  display:grid;place-items:center;
+  box-shadow:0 12px 30px rgba(0,0,0,.28);
+  transition:transform .25s;
+}
+.gw-hero-play i::after{
+  content:"";
+  border-left:20px solid var(--gw-teal);
+  border-top:13px solid transparent;
+  border-bottom:13px solid transparent;
+  margin-left:6px;
+}
+.gw-hero-visual:hover .gw-hero-play i{transform:scale(1.1);}
+.gw-hero-float{
+  position:absolute;
+  left:18px;bottom:18px;
+  background:rgba(255,255,255,.94);
+  border-radius:14px;
+  padding:10px 16px;
+  font-size:12.5px;
+  font-weight:600;
+  color:var(--gw-teal-dark);
+  box-shadow:0 8px 22px rgba(0,0,0,.16);
+}
+
+/* Deep解析 */
+.gw-deep{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:42px;
+  align-items:start;
+}
+.gw-deep p{
+  font-size:14.8px;
+  color:var(--gw-slate);
+  text-align:justify;
+  margin-bottom:16px;
+}
+.gw-deep p strong{color:var(--gw-teal-dark);}
+.gw-deep-points{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+.gw-deep-card{
+  background:#fff;
+  border:1px solid var(--gw-line);
+  border-radius:var(--gw-radius);
+  padding:18px 20px;
+  box-shadow:var(--gw-shadow);
+  transition:transform .25s,border-color .25s;
+}
+.gw-deep-card:hover{transform:translateY(-3px);border-color:rgba(15,118,110,.4);}
+.gw-deep-card h3{
+  font-size:15.5px;
+  font-weight:800;
+  margin-bottom:6px;
+  color:var(--gw-teal-dark);
+  display:flex;align-items:center;gap:8px;
+}
+.gw-deep-card h3 span{
+  width:26px;height:26px;flex:none;
+  border-radius:8px;
+  background:var(--gw-amber-soft);
+  color:#9a6200;
+  display:grid;place-items:center;
+  font-size:13px;
+}
+.gw-deep-card p{font-size:13.5px;margin:0;}
+
+/* 焦点视频 */
+.gw-focus-grid{
+  display:grid;
+  grid-template-columns:1.35fr 1fr;
+  gap:22px;
+}
+.gw-focus-main{
+  border-radius:var(--gw-radius);
+  overflow:hidden;
+  position:relative;
+  background:#0b1a1e;
+  box-shadow:var(--gw-shadow);
+  min-height:340px;
+}
+.gw-focus-main img{width:100%;height:100%;object-fit:cover;opacity:.92;}
+.gw-focus-main-info{
+  position:absolute;
+  inset:auto 0 0 0;
+  padding:26px 26px 22px;
+  background:linear-gradient(180deg,transparent,rgba(6,32,30,.92));
+  color:#fff;
+}
+.gw-focus-main-info .gw-chip{
+  display:inline-block;
+  background:var(--gw-amber);
+  color:#3b2600;
+  font-size:11.5px;
+  font-weight:700;
+  padding:2px 10px;
+  border-radius:20px;
+  margin-bottom:10px;
+}
+.gw-focus-main-info h3{font-size:21px;font-weight:800;line-height:1.4;margin-bottom:8px;}
+.gw-focus-main-info p{font-size:13.5px;color:#cfe5e1;margin-bottom:14px;}
+.gw-focus-meta{display:flex;gap:16px;font-size:12.5px;color:#a9cfc9;flex-wrap:wrap;}
+.gw-focus-side{display:flex;flex-direction:column;gap:22px;}
+.gw-focus-mini{
+  display:grid;
+  grid-template-columns:132px 1fr;
+  gap:14px;
+  background:#fff;
+  border:1px solid var(--gw-line);
+  border-radius:14px;
+  overflow:hidden;
+  transition:transform .25s,box-shadow .25s;
+}
+.gw-focus-mini:hover{transform:translateX(4px);box-shadow:var(--gw-shadow);}
+.gw-focus-mini-img{position:relative;aspect-ratio:16/11;overflow:hidden;}
+.gw-focus-mini-img img{width:100%;height:100%;object-fit:cover;}
+.gw-focus-mini-img i{
+  position:absolute;inset:0;display:grid;place-items:center;
+  background:rgba(11,79,74,.18);
+}
+.gw-focus-mini-img i::after{
+  content:"";
+  border-left:12px solid rgba(255,255,255,.92);
+  border-top:8px solid transparent;
+  border-bottom:8px solid transparent;
+}
+.gw-focus-mini-txt{padding:12px 14px 12px 0;}
+.gw-focus-mini-txt h4{font-size:14.5px;font-weight:700;line-height:1.45;margin-bottom:5px;}
+.gw-focus-mini-txt p{font-size:12.5px;color:var(--gw-slate);}
+
+/* 视频流卡片 */
+.gw-video-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+.gw-video-card{
+  background:#fff;
+  border:1px solid var(--gw-line);
+  border-radius:var(--gw-radius);
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  transition:transform .28s,box-shadow .28s;
+}
+.gw-video-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(15,80,74,.16);}
+.gw-video-cover{position:relative;aspect-ratio:16/9;overflow:hidden;}
+.gw-video-cover img{width:100%;height:100%;object-fit:cover;transition:transform .5s;}
+.gw-video-card:hover .gw-video-cover img{transform:scale(1.06);}
+.gw-video-cover .gw-play-tri{
+  position:absolute;inset:0;display:grid;place-items:center;
+  background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(6,32,30,.55));
+}
+.gw-play-tri i{
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(255,255,255,.9);
+  display:grid;place-items:center;
+  box-shadow:0 6px 18px rgba(0,0,0,.24);
+}
+.gw-play-tri i::after{
+  content:"";
+  border-left:14px solid var(--gw-teal);
+  border-top:9px solid transparent;
+  border-bottom:9px solid transparent;
+  margin-left:4px;
+}
+.gw-video-tag{
+  position:absolute;top:10px;left:10px;
+  background:rgba(15,118,110,.92);
+  color:#fff;font-size:11px;font-weight:600;
+  padding:2px 9px;border-radius:20px;
+}
+.gw-video-body{padding:15px 17px 17px;display:flex;flex-direction:column;flex:1;}
+.gw-video-body h3{font-size:15.5px;font-weight:800;line-height:1.45;margin-bottom:7px;}
+.gw-video-body>p{font-size:13px;color:var(--gw-slate);margin-bottom:12px;flex:1;}
+.gw-video-foot{
+  display:flex;align-items:center;justify-content:space-between;
+  font-size:12px;color:var(--gw-slate);
+  border-top:1px dashed var(--gw-line);
+  padding-top:10px;gap:8px;
+}
+.gw-video-author{display:flex;align-items:center;gap:7px;min-width:0;}
+.gw-avatar{
+  width:26px;height:26px;border-radius:50%;flex:none;
+  display:grid;place-items:center;
+  font-size:11.5px;font-weight:800;color:#fff;
+}
+.gw-video-author span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.gw-video-ops{display:flex;align-items:center;gap:4px;flex:none;}
+.gw-op-btn{
+  display:inline-flex;align-items:center;gap:3px;
+  font-size:12px;color:var(--gw-slate);
+  padding:3px 6px;border-radius:8px;
+  transition:background .2s,color .2s;
+}
+.gw-op-btn:hover{background:var(--gw-mist);color:var(--gw-teal);}
+.gw-op-btn.gw-active{color:var(--gw-teal);font-weight:700;}
+.gw-op-btn.gw-liked{color:#e11d48;font-weight:700;}
+
+/* 专题 */
+.gw-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+.gw-topic-card{
+  position:relative;border-radius:var(--gw-radius);overflow:hidden;
+  min-height:250px;box-shadow:var(--gw-shadow);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  color:#fff;
+  transition:transform .3s;
+}
+.gw-topic-card:hover{transform:translateY(-5px);}
+.gw-topic-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.gw-topic-card::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(6,32,30,.05),rgba(6,32,30,.88));
+}
+.gw-topic-txt{position:relative;z-index:2;padding:22px;}
+.gw-topic-status{
+  display:inline-block;font-size:11px;font-weight:700;
+  background:var(--gw-amber);color:#3b2600;
+  padding:2px 10px;border-radius:20px;margin-bottom:10px;
+}
+.gw-topic-status.gw-done{background:#9ae6b4;color:#0b3d2c;}
+.gw-topic-txt h3{font-size:17.5px;font-weight:800;margin-bottom:6px;line-height:1.4;}
+.gw-topic-txt p{font-size:13px;color:#d7ebe7;}
+
+/* 创作者 */
+.gw-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.gw-creator-card{
+  background:#fff;border:1px solid var(--gw-line);
+  border-radius:var(--gw-radius);padding:22px 18px;text-align:center;
+  transition:transform .28s,box-shadow .28s;cursor:pointer;
+}
+.gw-creator-card:hover{transform:translateY(-5px);box-shadow:var(--gw-shadow);border-color:rgba(15,118,110,.35);}
+.gw-creator-avatar{
+  width:64px;height:64px;border-radius:50%;
+  margin:0 auto 12px;
+  display:grid;place-items:center;
+  font-size:24px;font-weight:900;color:#fff;
+  box-shadow:0 6px 16px rgba(15,80,74,.22);
+}
+.gw-creator-card h3{font-size:15.5px;font-weight:800;margin-bottom:3px;}
+.gw-creator-dom{font-size:12px;color:var(--gw-teal);font-weight:600;margin-bottom:9px;}
+.gw-creator-card>p{font-size:12.5px;color:var(--gw-slate);margin-bottom:12px;min-height:36px;}
+.gw-creator-nums{display:flex;justify-content:center;gap:16px;font-size:12px;color:var(--gw-slate);}
+.gw-creator-nums b{display:block;color:var(--gw-teal-dark);font-size:14px;}
+
+/* 作品墙 */
+.gw-wall{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-auto-rows:150px;
+  gap:14px;
+}
+.gw-wall-item{
+  position:relative;border-radius:14px;overflow:hidden;
+  box-shadow:0 6px 18px rgba(15,80,74,.10);
+}
+.gw-wall-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s;}
+.gw-wall-item:hover img{transform:scale(1.07);}
+.gw-wall-item span{
+  position:absolute;inset:auto 0 0 0;
+  padding:20px 12px 9px;
+  background:linear-gradient(180deg,transparent,rgba(6,32,30,.82));
+  color:#fff;font-size:12px;font-weight:600;
+}
+.gw-wall-big{grid-column:span 2;grid-row:span 2;}
+.gw-wall-wide{grid-column:span 2;}
+.gw-wall-tall{grid-row:span 2;}
+
+/* 评价 */
+.gw-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.gw-review-card{
+  background:#fff;border:1px solid var(--gw-line);
+  border-radius:var(--gw-radius);padding:20px;
+  display:flex;flex-direction:column;gap:12px;
+  transition:transform .25s,box-shadow .25s;
+}
+.gw-review-card:hover{transform:translateY(-4px);box-shadow:var(--gw-shadow);}
+.gw-review-top{display:flex;align-items:center;gap:10px;}
+.gw-review-top .gw-avatar{width:34px;height:34px;font-size:13px;}
+.gw-review-name{font-size:13.5px;font-weight:800;}
+.gw-review-role{font-size:11.5px;color:var(--gw-slate);}
+.gw-review-card>p{font-size:13.2px;color:var(--gw-slate);flex:1;text-align:justify;}
+.gw-review-stars{color:var(--gw-amber);font-size:13px;letter-spacing:2px;}
+
+/* 榜单 */
+.gw-rank-wrap{
+  display:grid;grid-template-columns:1fr 1fr;gap:26px;
+}
+.gw-rank-box{
+  background:#fff;border:1px solid var(--gw-line);
+  border-radius:var(--gw-radius);padding:22px 24px;box-shadow:var(--gw-shadow);
+}
+.gw-rank-box h3{font-size:16.5px;font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
+.gw-rank-box h3 em{font-style:normal;font-size:11px;background:var(--gw-amber-soft);color:#9a6200;padding:1px 9px;border-radius:20px;font-weight:700;}
+.gw-rank-list li{
+  display:flex;align-items:center;gap:12px;
+  padding:9px 0;border-bottom:1px dashed var(--gw-line);
+  font-size:13.5px;
+}
+.gw-rank-list li:last-child{border-bottom:none;}
+.gw-rank-no{
+  width:22px;height:22px;flex:none;border-radius:7px;
+  display:grid;place-items:center;font-size:11.5px;font-weight:800;
+  background:var(--gw-mist);color:var(--gw-slate);
+}
+.gw-rank-list li:nth-child(1) .gw-rank-no{background:var(--gw-amber);color:#3b2600;}
+.gw-rank-list li:nth-child(2) .gw-rank-no{background:#9ae6b4;color:#0b3d2c;}
+.gw-rank-list li:nth-child(3) .gw-rank-no{background:#bfdbfe;color:#1e3a8a;}
+.gw-rank-txt{flex:1;font-weight:600;color:var(--gw-ink);}
+.gw-rank-val{font-size:12px;color:var(--gw-slate);}
+
+/* 动态 */
+.gw-update-list{display:flex;flex-direction:column;gap:14px;}
+.gw-update-item{
+  display:grid;grid-template-columns:86px 1fr;
+  gap:18px;align-items:start;
+  background:#fff;border:1px solid var(--gw-line);
+  border-radius:14px;padding:16px 20px;
+  transition:border-color .22s,transform .22s;
+}
+.gw-update-item:hover{border-color:rgba(15,118,110,.4);transform:translateX(4px);}
+.gw-update-date{
+  font-size:12.5px;font-weight:700;color:var(--gw-teal);
+  letter-spacing:.5px;padding-top:2px;
+}
+.gw-update-item h3{font-size:15px;font-weight:800;margin-bottom:4px;}
+.gw-update-item p{font-size:13px;color:var(--gw-slate);}
+
+/* 灵感工具 */
+.gw-tool-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.gw-tool-card{
+  background:linear-gradient(160deg,#ffffff,#fba;border-radius:var(--gw-radius);
+  padding:22px 20px;border:1px solid var(--gw-line);
+}
+.gw-tool-card{background:linear-gradient(160deg,#ffffff,#f2fbf8);}
+.gw-tool-card h3{font-size:15.5px;font-weight:800;margin-bottom:8px;color:var(--gw-teal-dark);}
+.gw-tool-card p{font-size:13px;color:var(--gw-slate);margin-bottom:14px;}
+.gw-tool-card button{
+  font-size:12.5px;font-weight:700;color:var(--gw-teal);
+  border:1px solid rgba(15,118,110,.35);
+  padding:6px 14px;border-radius:999px;
+  transition:background .2s,color .2s;
+}
+.gw-tool-card button:hover{background:var(--gw-teal);color:#fff;}
+
+/* FAQ */
+.gw-faq-wrap{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:12px;}
+.gw-faq-item{
+  background:#fff;border:1px solid var(--gw-line);
+  border-radius:14px;overflow:hidden;
+  transition:border-color .2s;
+}
+.gw-faq-item[open]{border-color:rgba(15,118,110,.4);}
+.gw-faq-item summary{
+  list-style:none;cursor:pointer;
+  padding:15px 20px;font-size:14.5px;font-weight:700;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.gw-faq-item summary::-webkit-details-marker{display:none;}
+.gw-faq-item summary::after{
+  content:"+";font-size:20px;font-weight:400;color:var(--gw-teal);
+  flex:none;transition:transform .25s;
+}
+.gw-faq-item[open] summary::after{transform:rotate(45deg);}
+.gw-faq-item p{padding:0 20px 16px;font-size:13.5px;color:var(--gw-slate);}
+
+/* 联系 */
+.gw-contact-band{
+  background:linear-gradient(120deg,var(--gw-teal-dark),var(--gw-teal));
+  border-radius:24px;
+  color:#fff;
+  padding:44px 42px;
+  display:grid;
+  grid-template-columns:1.3fr 1fr;
+  gap:32px;
+  align-items:center;
+  box-shadow:0 24px 50px rgba(11,79,74,.28);
+}
+.gw-contact-band h2{font-size:26px;font-weight:900;margin-bottom:10px;}
+.gw-contact-band p{font-size:14px;color:#c9ece7;margin-bottom:18px;}
+.gw-contact-actions{display:flex;gap:12px;flex-wrap:wrap;}
+.gw-contact-actions .gw-btn-primary{background:var(--gw-amber);color:#3b2600;box-shadow:none;}
+.gw-contact-actions .gw-btn-primary:hover{background:#fbbf24;}
+.gw-contact-actions .gw-btn-ghost{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.4);color:#fff;}
+.gw-contact-actions .gw-btn-ghost:hover{background:rgba(255,255,255,.16);}
+.gw-contact-info{display:flex;flex-direction:column;gap:10px;font-size:13.5px;color:#d8f2ee;}
+.gw-contact-info b{color:#fff;}
+
+/* Footer */
+.gw-footer{
+  background:#0b1f24;
+  color:#a9c4c0;
+  padding:56px 20px 28px;
+  margin-top:20px;
+}
+.gw-footer-inner{
+  max-width:1200px;margin:0 auto;
+  display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:36px;
+}
+.gw-footer h4{color:#fff;font-size:14.5px;font-weight:800;margin-bottom:14px;letter-spacing:.5px;}
+.gw-footer p{font-size:13px;line-height:1.85;}
+.gw-footer ul{display:flex;flex-direction:column;gap:8px;font-size:13px;}
+.gw-footer ul a{color:#a9c4c0;transition:color .2s;}
+.gw-footer ul a:hover{color:#5eead4;}
+.gw-footer-brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;font-size:17px;margin-bottom:12px;}
+.gw-footer-brand .gw-logo-mark{width:34px;height:34px;font-size:14px;border-radius:10px;}
+.gw-footer-bottom{
+  max-width:1200px;margin:34px auto 0;
+  padding-top:20px;border-top:1px solid rgba(255,255,255,.1);
+  font-size:12.5px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  color:#7fa39e;
+}
+
+/* Toast & 弹窗 */
+.gw-toast{
+  position:fixed;
+  left:50%;bottom:38px;
+  transform:translate(-50%,20px);
+  background:rgba(11,31,36,.94);
+  color:#e6fffb;
+  font-size:13.5px;
+  padding:11px 22px;
+  border-radius:999px;
+  opacity:0;pointer-events:none;
+  transition:opacity .3s,transform .3s;
+  z-index:200;
+  box-shadow:0 12px 30px rgba(0,0,0,.3);
+}
+.gw-toast.gw-show{opacity:1;transform:translate(-50%,0);}
+.gw-modal-mask{
+  position:fixed;inset:0;background:rgba(6,32,30,.55);
+  display:none;place-items:center;z-index:150;padding:20px;
+  backdrop-filter:blur(3px);
+}
+.gw-modal-mask.gw-show{display:grid;}
+.gw-modal{
+  background:#fff;border-radius:20px;
+  max-width:480px;width:100%;
+  padding:28px 26px 24px;
+  position:relative;
+  box-shadow:0 30px 70px rgba(0,0,0,.32);
+  animation:gw-pop .28s ease;
+}
+@keyframes gw-pop{from{transform:translateY(16px);opacity:0;}to{transform:translateY(0);opacity:1;}}
+.gw-modal h3{font-size:19px;font-weight:900;margin-bottom:8px;color:var(--gw-teal-dark);}
+.gw-modal p{font-size:13.5px;color:var(--gw-slate);margin-bottom:16px;}
+.gw-modal-close{
+  position:absolute;top:14px;right:16px;
+  font-size:22px;color:var(--gw-slate);line-height:1;
+}
+.gw-modal-close:hover{color:var(--gw-teal);}
+.gw-modal textarea,.gw-modal input{
+  width:100%;border:1px solid var(--gw-line);
+  border-radius:10px;padding:10px 12px;
+  font-family:inherit;font-size:13.5px;margin-bottom:12px;
+  outline:none;resize:vertical;
+}
+.gw-modal textarea:focus,.gw-modal input:focus{border-color:var(--gw-teal);}
+.gw-modal .gw-btn-primary{width:100%;justify-content:center;}
+
+.gw-backtop{
+  position:fixed;right:22px;bottom:26px;
+  width:44px;height:44px;border-radius:50%;
+  background:var(--gw-teal);color:#fff;
+  display:grid;place-items:center;
+  font-size:18px;
+  box-shadow:0 10px 26px rgba(15,118,110,.4);
+  opacity:0;pointer-events:none;
+  transition:opacity .3s,transform .3s;
+  z-index:120;
+}
+.gw-backtop.gw-show{opacity:1;pointer-events:auto;}
+.gw-backtop:hover{transform:translateY(-3px);}
+
+@media(max-width:1000px){
+  .gw-hero-inner{grid-template-columns:1fr;gap:34px;padding-top:48px;}
+  .gw-hero-visual{max-width:620px;}
+  .gw-deep{grid-template-columns:1fr;}
+  .gw-focus-grid{grid-template-columns:1fr;}
+  .gw-video-grid{grid-template-columns:repeat(2,1fr);}
+  .gw-topic-grid{grid-template-columns:1fr 1fr;}
+  .gw-creator-grid{grid-template-columns:repeat(2,1fr);}
+  .gw-review-grid{grid-template-columns:1fr 1fr;}
+  .gw-rank-wrap{grid-template-columns:1fr;}
+  .gw-tool-grid{grid-template-columns:1fr;}
+  .gw-contact-band{grid-template-columns:1fr;padding:34px 26px;}
+  .gw-footer-inner{grid-template-columns:1fr 1fr;}
+  .gw-search{display:none;}
+}
+@media(max-width:760px){
+  .gw-nav{display:none;}
+  .gw-burger{display:flex;}
+  .gw-header-inner{gap:10px;}
+  .gw-video-grid{grid-template-columns:1fr;}
+  .gw-topic-grid{grid-template-columns:1fr;}
+  .gw-creator-grid{grid-template-columns:1fr;}
+  .gw-review-grid{grid-template-columns:1fr;}
+  .gw-wall{grid-template-columns:1fr 1fr;grid-auto-rows:130px;}
+  .gw-wall-big{grid-column:span 2;grid-row:span 1;}
+  .gw-wall-wide{grid-column:span 2;}
+  .gw-wall-tall{grid-row:span 1;}
+  .gw-footer-inner{grid-template-columns:1fr;}
+  .gw-notice-bar{font-size:12px;}
+  .gw-update-item{grid-template-columns:1fr;gap:4px;}
+  .gw-section{padding:48px 18px;scroll-margin-top:96px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="gw-sticky-head">
+  <div class="gw-notice-bar">
+    <span class="gw-notice-tag">官方发布</span>
+    <div class="gw-notice-track">
+      <span>「城市微光」第三季新增 12 支原创短片 · 11 月 18 日上线</span>
+      <span>创作者扶持计划 2026 冬季批次开放报名 · 截止 12 月 10 日</span>
+      <span>平台高清标准升级至 4K HDR · 全站精品内容陆续适配</span>
+      <span>「城市微光」第三季新增 12 支原创短片 · 11 月 18 日上线</span>
+      <span>创作者扶持计划 2026 冬季批次开放报名 · 截止 12 月 10 日</span>
+      <span>平台高清标准升级至 4K HDR · 全站精品内容陆续适配</span>
+    </div>
+  </div>
+
+  <header class="gw-header">
+    <div class="gw-header-inner">
+      <a class="gw-logo" href="#gw-home">
+        <span class="gw-logo-mark">▶</span>
+        <span>91干逼com<span class="gw-logo-sub">OFFICIAL VIDEO</span></span>
+      </a>
+      <nav class="gw-nav">
+        <a href="#gw-home">首页</a>
+        <a href="#gw-focus">焦点内容</a>
+        <a href="#gw-videos">热门视频</a>
+        <a href="#gw-topics">专题企划</a>
+        <a href="#gw-creators">创作者</a>
+        <a href="#gw-updates">企业动态</a>
+        <a href="#gw-help">帮助中心</a>
+        <a href="#gw-contact">联系我们</a>
+      </nav>
+      <form class="gw-search" onsubmit="return gwSearch(event)">
+        <input id="gwSearchInput" type="text" placeholder="搜索视频、创作者、专题" aria-label="站内搜索">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="gw-burger" id="gwBurger" aria-label="展开导航">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="gw-search-hint" id="gwSearchHint"></div>
+  </header>
+
+  <div class="gw-mobile-nav" id="gwMobileNav">
+    <a href="#gw-home">首页</a>
+    <a href="#gw-focus">焦点内容</a>
+    <a href="#gw-videos">热门视频</a>
+    <a href="#gw-topics">专题企划</a>
+    <a href="#gw-creators">创作者</a>
+    <a href="#gw-updates">企业动态</a>
+    <a href="#gw-help">帮助中心</a>
+    <a href="#gw-contact">联系我们</a>
+  </div>
+</div>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="gw-hero" id="gw-home">
+    <div class="gw-hero-inner">
+      <div>
+        <span class="gw-hero-badge"><i></i>91干逼com 官方网站 · 持续运营中</span>
+        <h1>91干逼com</h1>
+        <p class="gw-hero-slogan">以真实影像，连接每一个值得被看见的故事</p>
+        <p class="gw-hero-intro">
+          91干逼com 是一家专注于原创视频内容的企业品牌，深耕影像创作与内容生态建设多年。我们为创作者提供从选题、拍摄到分发的全链路支持，为观众提供高品质、可信任的精品内容。作为行业领先的视频品牌官网，我们坚持正版、原创、专业的价值主张，让每一帧画面都承载真实与温暖的力量。
+        </p>
+        <div class="gw-hero-stats">
+          <div class="gw-hero-stat"><b>12,800+</b><span>原创视频作品</span></div>
+          <div class="gw-hero-stat"><b>3,600+</b><span>认证创作者</span></div>
+          <div class="gw-hero-stat"><b>98.6%</b><span>用户口碑好评</span></div>
+        </div>
+        <div class="gw-hero-actions">
+          <a class="gw-btn gw-btn-primary" href="#gw-videos">浏览精品内容</a>
+          <a class="gw-btn gw-btn-ghost" href="#gw-creators">认识创作者</a>
+          <a class="gw-btn gw-btn-ghost" href="#gw-contact">品牌合作</a>
+        </div>
+      </div>
+      <div class="gw-hero-visual">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='550'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230b4f4a'/%3E%3Cstop offset='1' stop-color='%2314b8a6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23g1)'/%3E%3Ccircle cx='620' cy='120' r='170' fill='%23f59e0b' opacity='.28'/%3E%3Ccircle cx='150' cy='450' r='210' fill='%23ffffff' opacity='.10'/%3E%3Cpath d='M0 400 Q200 300 400 380 T800 340 V550 H0Z' fill='%230b1f24' opacity='.55'/%3E%3Crect x='90' y='120' width='230' height='150' rx='14' fill='%23ffffff' opacity='.18'/%3E%3Crect x='110' y='145' width='150' height='12' rx='6' fill='%23fef3c7' opacity='.9'/%3E%3Crect x='110' y='172' width='190' height='8' rx='4' fill='%23ffffff' opacity='.55'/%3E%3Crect x='110' y='192' width='160' height='8' rx='4' fill='%23ffffff' opacity='.45'/%3E%3Crect x='110' y='226' width='90' height='24' rx='12' fill='%23f59e0b'/%3E%3C/svg%3E" alt="91干逼com 品牌形象主视觉：青绿色影像界面与城市剪影">
+        <div class="gw-hero-play"><i></i></div>
+        <div class="gw-hero-float">今日更新 · 24 支原创短片</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关键词解析 -->
+  <section class="gw-section" id="gw-about">
+    <div class="gw-sec-head">
+      <div>
+        <span class="gw-eyebrow">About Brand</span>
+        <h2 class="gw-h2">关于 91干逼com 品牌与内容定位</h2>
+      </div>
+      <p class="gw-sec-desc">从品牌理念出发，深度理解我们如何以视频为媒介，构建一个真实、多元、值得信赖的内容生态。</p>
+    </div>
+    <div class="gw-deep">
+      <div>
+        <p><strong>91干逼com 是谁？</strong>我们是一家以视频为核心载体的内容品牌企业，官方网站承载品牌展示、原创发布、创作者协作与社区互动的完整功能。品牌自创立起就把“真实”作为第一原则：镜头不粉饰、叙事不夸大、表达不设限。我们相信，视频不只是娱乐消费品，更是记录日常、传递知识、凝聚情感的重要媒介。正因如此，91干逼com 在选题机制上坚持双轨并行——既关注大众关心的热门议题，也持续发掘被忽视的小众角落。</p>
+        <p><strong>我们如何定义精品内容？</strong>在 91干逼com 的评估体系中，一支视频是否“精品”，不取决于播放数字的高低，而取决于三个维度：信息是否扎实、表达是否真诚、制作是否专业。我们设有专门的品质评审小组，从脚本阶段介入，协助创作者打磨结构；在后期阶段提供高清调色与声音指导；上线后还会结合社区反馈持续优化。这套机制让平台的平均内容完播率长期保持在行业前列，也让“91干逼com 出品”逐渐成为用户心中值得信赖的品质标签。</p>
+        <p><strong>内容生态如何运转？</strong>独木不成林。91干逼com 的内容生态由三股力量共同构成：一是平台自制的深度企划，负责树立品质标杆；二是认证创作者的中坚产出，覆盖城市探索、生活方式、知识科普、手作 DIY 等多元题材；三是普通用户的真实投稿，为社区注入持续的新鲜活力。三者之间通过流量扶持、联合创作、专题共创等方式相互流动，形成一个不断成长、包容多元的循环。我们坚信，只有让创作者获得合理回报与尊重，内容生态才能健康持续运营。</p>
+        <p><strong>为什么强调社区与陪伴？</strong>视频的价值不只在观看的那一刻，更在于作品与观众之间建立的长久连接。91干逼com 在每支视频下都保留完整的评论与讨论空间，鼓励观众分享自己的经历与观点。我们定期举办线上主题挑战与投票活动，让用户从被动接收者变成主动参与者。许多用户告诉我们，他们在 91干逼com 找到了同好、找到了方法、甚至找到了生活的新方向——这正是品牌最看重的社会价值。</p>
+      </div>
+      <div class="gw-deep-points">
+        <div class="gw-deep-card">
+          <h3><span>01</span>原创优先</h3>
+          <p>所有首发内容均经过原创性核验，尊重创作者版权，坚持正版授权与规范转载，让创作回报可预期。</p>
+        </div>
+        <div class="gw-deep-card">
+          <h3><span>02</span>高清标准</h3>
+          <p>平台全面支持 4K HDR 高清播放与下载存档，从拍摄参数到编码规范提供专业建议，保障观看品质。</p>
+        </div>
+        <div class="gw-deep-card">
+          <h3><span>03</span>垂直领域</h3>
+          <p>深耕城市探索、生活方式、知识科普、手作 DIY 等垂直内容方向，形成有辨识度的内容矩阵。</p>
+        </div>
+        <div class="gw-deep-card">
+          <h3><span>04</span>用户至上</h3>
+          <p>简化操作路径、优化推荐逻辑、开放反馈通道，让每一次浏览与互动都顺畅而温暖。</p>
+        </div>
+        <div class="gw-deep-card">
+          <h3><span>05</span>社会责任</h3>
+          <p>持续开展公益影像计划，为乡村教育、非遗保护、环保行动提供免费记录与传播支持。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <div class="gw-section-tint">
+    <section class="gw-section" id="gw-focus">
+      <div class="gw-sec-head">
+        <div>
+          <span class="gw-eyebrow">Focus</span>
+          <h2 class="gw-h2">焦点内容推荐</h2>
+        </div>
+        <p class="gw-sec-desc">编辑团队本周精选，从深度专题到日常记录，带你看见不同视角下的真实世界。</p>
+      </div>
+      <div class="gw-focus-grid">
+        <article class="gw-focus-main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231b3a4a'/%3E%3Cstop offset='1' stop-color='%230f766e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='900' height='600' fill='url(%23f1)'/%3E%3Cg fill='%23fef3c7' opacity='.85'%3E%3Crect x='90' y='360' width='60' height='120'/%3E%3Crect x='180' y='300' width='60' height='180'/%3E%3Crect x='270' y='250' width='60' height='230'/%3E%3Crect x='360' y='320' width='60' height='160'/%3E%3Crect x='450' y='220' width='60' height='260'/%3E%3Crect x='540' y='290' width='60' height='190'/%3E%3Crect x='630' y='200' width='60' height='280'/%3E%3Crect x='720' y='330' width='60' height='150'/%3E%3C/g%3E%3Ccircle cx='720' cy='120' r='52' fill='%23f59e0b' opacity='.9'/%3E%3Crect x='90' y='90' width='200' height='14' rx='7' fill='%23ffffff' opacity='.7'/%3E%3Crect x='90' y='120' width='140' height='10' rx='5' fill='%23ffffff' opacity='.45'/%3E%3C/svg%3E" alt="焦点专题《城市微光》第三季：夜色中的灯火与人群剪影">
+          <div class="gw-focus-main-info">
+            <span class="gw-chip">本周主推</span>
+            <h3>城市微光 第三季：在夜色里寻找十二个普通人的坚持</h3>
+            <p>历时四个月，跨越六座城市，摄制组用 4K 镜头记录下深夜书店、凌晨面包房、末班公交司机与街角维修匠的真实日常，呈现城市温度的另一面。</p>
+            <div class="gw-focus-meta">
+              <span>出品：91干逼com 自制企划</span>
+              <span>时长 48 分钟</span>
+              <span>2026-11-18 更新</span>
+            </div>
+          </div>
+        </article>
+        <div class="gw-focus-side">
+          <article class="gw-focus-mini">
+            <div class="gw-focus-mini-img">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='280'%3E%3Crect width='400' height='280' fill='%23f59e0b'/%3E%3Ccircle cx='320' cy='60' r='70' fill='%23fff7ed' opacity='.55'/%3E%3Crect x='40' y='160' width='200' height='16' rx='8' fill='%230b4f4a' opacity='.7'/%3E%3Crect x='40' y='192' width='150' height='10' rx='5' fill='%230b4f4a' opacity='.45'/%3E%3Crect x='40' y='60' width='90' height='64' rx='10' fill='%230b4f4a' opacity='.6'/%3E%3C/svg%3E" alt="焦点内容：老面点师的清晨四点">
+              <i></i>
+            </div>
+            <div class="gw-focus-mini-txt">
+              <h4>老面点师的清晨四点</h4>
+              <p>手作 · 一条老巷的三十年守候</p>
+            </div>
+          </article>
+          <article class="gw-focus-mini">
+            <div class="gw-focus-mini-img">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='280'%3E%3Crect width='400' height='280' fill='%230f766e'/%3E%3Cpath d='M0 200 L110 120 L210 180 L310 80 L400 150 V280 H0Z' fill='%23ecfeff' opacity='.35'/%3E%3Ccircle cx='90' cy='70' r='34' fill='%23fef3c7' opacity='.9'/%3E%3Crect x='40' y='220' width='180' height='12' rx='6' fill='%23ffffff' opacity='.6'/%3E%3C/svg%3E" alt="焦点内容：骑行两百公里，记录海岸线的晨与昏">
+              <i></i>
+            </div>
+            <div class="gw-focus-mini-txt">
+              <h4>骑行两百公里，记录海岸线的晨与昏</h4>
+              <p>户外 · 运动相机全程实拍</p>
+            </div>
+          </article>
+          <article class="gw-focus-mini">
+            <div class="gw-focus-mini-img">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='280'%3E%3Crect width='400' height='280' fill='%231e293b'/%3E%3Cg fill='%235eead4' opacity='.8'%3E%3Crect x='40' y='180' width='26' height='60'/%3E%3Crect x='80' y='150' width='26' height='90'/%3E%3Crect x='120' y='110' width='26' height='130'/%3E%3Crect x='160' y='170' width='26' height='70'/%3E%3Crect x='200' y='130' width='26' height='110'/%3E%3C/g%3E%3Ccircle cx='320' cy='90' r='46' fill='%23f59e0b' opacity='.8'/%3E%3C/svg%3E" alt="焦点内容：数据背后的内容生态观察">
+              <i></i>
+            </div>
+            <div class="gw-focus-mini-txt">
+              <h4>数据背后的内容生态观察</h4>
+              <p>行业观察 · 2026 年度内容趋势</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 热门视频 -->
+  <section class="gw-section" id="gw-videos">
+    <div class="gw-sec-head">
+      <div>
+        <span class="gw-eyebrow">Trending</span>
+        <h2 class="gw-h2">热门视频流</h2>
+      </div>
+      <p class="gw-sec-desc">来自社区创作者的最新作品，涵盖日常记录、经验分享、教程干货与治愈影像，点击卡片即可查看简介与互动。</p>
+    </div>
+    <div class="gw-video-grid">
+
+      <article class="gw-video-card">
+        <div class="gw-video-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='270'%3E%3Crect width='480' height='270' fill='%23f59e0b'/%3E%3Ccircle cx='380' cy='70' r='80' fill='%23fff7ed' opacity='.6'/%3E%3Crect x='40' y='150' width='240' height='18' rx='9' fill='%230b4f4a' opacity='.75'/%3E%3Crect x='40' y='184' width='170' height='10' rx='5' fill='%230b4f4a' opacity='.45'/%3E%3Crect x='40' y='50' width='110' height='76' rx='12' fill='%23ffffff' opacity='.45'/%3E%3C/svg%3E" alt="视频封面：三分钟学会家常红烧肉的收汁技巧">
+          <span class="gw-video-tag">教程干货</span>
+          <div class="gw-play-tri"><i></i></div>
+        </div>
+        <div class="gw-video-body">
+          <h3>三分钟学会家常红烧肉的收汁技巧</h3>
+          <p>从选肉、焯水到糖色火候，一步步演示关键节点，新手也能做出油亮不腻的口感。</p>
+          <div class="gw-video-foot">
+            <div class="gw-video-author">
+              <span class="gw-avatar" style="background:#0f766e">厨</span>
+              <span>厨房笔记阿禾</span>
+            </div>
+            <div class="gw-video-ops">
+              <button class="gw-op-btn gw-like-btn" data-count="1284">♡ 1284</button>
+              <button class="gw-op-btn gw-fav-btn">☆ 收藏</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="gw-video-card">
+        <div class="gw-video-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='270'%3E%3Crect width='480' height='270' fill='%231e3a5f'/%3E%3Cpath d='M0 200 L120 110 L230 170 L340 80 L480 150 V270 H0Z' fill='%2338bdf8' opacity='.45'/%3E%3Ccircle cx='380' cy='60' r='34' fill='%23fef3c7' opacity='.9'/%3E%3Crect x='40' y='210' width='200' height='12' rx='6' fill='%23ffffff' opacity='.55'/%3E%3C/svg%3E" alt="视频封面：周末去山里，拍一段没有台词的清晨">
+          <span class="gw-video-tag">治愈影像</span>
+          <div class="gw-play-tri"><i></i></div>
+        </div>
+        <div class="gw-video-body">
+          <h3>周末去山里，拍一段没有台词的清晨</h3>
+          <p>没有旁白与配乐，只有溪流、鸟鸣与脚步声。试着用最朴素的画面，安放一周的疲惫。</p>
+          <div class="gw-video-foot">
+            <div class="gw-video-author">
+              <span class="gw-avatar" style="background:#2563eb">山</span>
+              <span>山里来信</span>
+            </div>
+            <div class="gw-video-ops">
+              <button class="gw-op-btn gw-like-btn" data-count="967">♡ 967</button>
+              <button class="gw-op-btn gw-fav-btn">☆ 收藏</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="gw-video-card">
+        <div class="gw-video-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='270'%3E%3Crect width='480' height='270' fill='%234c1d95'/%3E%3Cg fill='%23f0abfc' opacity='.7'%3E%3Ccircle cx='90' cy='90' r='26'/%3E%3Ccircle cx='190' cy='60' r='18'/%3E%3Ccircle cx='300' cy='110' r='30'/%3E%3Ccircle cx='390' cy='70' r='20'/%3E%3C/g%3E%3Crect x='60' y='190' width='300' height='14' rx='7' fill='%23ffffff' opacity='.5'/%3E%3C/svg%3E" alt="视频封面：对话独立动画师：一个人做一部短片的五年">
+          <span class="gw-video-tag">人物访谈</span>
+          <div class="gw-play-tri"><i></i></div>
+        </div>
+        <div class="gw-video-body">
+          <h3>对话独立动画师：一个人做一部短片的五年</h3>
+          <p>从分镜草稿到最终成片，他独自完成了三万张手绘。本期访谈聊聊孤独、坚持与创作回报。</p>
+          <div class="gw-video-foot">
+            <div class="gw-video-author">
+              <span class="gw-avatar" style="background:#7c3aed">访</span>
+              <span>创作者会客厅</span>
+            </div>
+            <div class="gw-video-ops">
+              <button class="gw-op-btn gw-like-btn" data-count="1536">♡ 1536</button>
+              <button class="gw-op-btn gw-fav-btn">☆ 收藏</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="gw-video-card">
+        <div class="gw-video-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='270'%3E%3Crect width='480' height='270' fill='%23065f46'/%3E%3Cg fill='%23a7f3d0' opacity='.7'%3E%3Crect x='60' y='170' width='34' height='60'/%3E%3Crect x='110' y='140' width='34' height='90'/%3E%3Crect x='160' y='100' width='34' height='130'/%3E%3Crect x='210' y='150' width='34' height='80'/%3E%3C/g%3E%3Ccircle cx='370' cy='80' r='40' fill='%23fbbf24' opacity='.85'/%3E%3C/svg%3E" alt="视频封面：阳台种菜的一年：从失败到满架收成">
+          <span class="gw-video-tag">经验分享</span>
+          <div class="gw-play-tri"><i></i></div>
+        </div>
+        <div class="gw-video-body">
+          <h3>阳台种菜的一年：从失败到满架收成</h3>
+          <p>记录十二个月的试错过程，整理出光照、土壤与浇水频率的实用清单，新手友好。</p>
+          <div class="gw-video-foot">
+            <div class="gw-video-author">
+              <span class="gw-avatar" style="background:#059669">绿</span>
+              <span>阳台绿手指</span>
+            </div>
+            <div class="gw-video-ops">
+              <button class="gw-op-btn gw-like-btn" data-count="742">♡ 742</button>
+              <button class="gw-op-btn gw-fav-btn">☆ 收藏</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="gw-video-card">
+        <div class="gw-video-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='270'%3E%3Crect width='480' height='270' fill='%23be123c'/%3E%3Crect x='40' y='40' width='180' height='120' rx='12' fill='%23ffffff' opacity='.22'/%3E%3Crect x='250' y='90' width='180' height='120' rx='12' fill='%23ffffff' opacity='.16'/%3E%3Cpath d='M120 130 l30 30 70-70' stroke='%23fef3c7' stroke-width='12' fill='none' stroke-linecap='round'/%3E%3Crect x='40' y='210' width='240' height='14' rx='7' fill='%23ffffff' opacity='.6'/%3E%3C/svg%3E" alt="视频封面：内容创作者的选题会：我们如何筛出好故事">
+          <span class="gw-video-tag">创作幕后</span>
+          <div class="gw-play-tri"><i></i></div>
+        </div>
+        <div class="gw-video-body">
+          <h3>内容创作者的选题会：我们如何筛出好故事</h3>
+          <p>完整公开一次内部选题会流程，从三十个提案到最终立项的五个标准，附评分表模板。</p>
+          <div class="gw-video-foot">
+            <div class="gw-video-author">
+              <span class="gw-avatar" style="background:#e11d48">编</span>
+              <span>编辑部日常</span>
+            </div>
+            <div class="gw-video-ops">
+              <button class="gw-op-btn gw-like-btn" data-count="1103">♡ 1103</button>
+              <button class="gw-op-btn gw-fav-btn">☆ 收藏</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="gw-video-card">
+        <div class="gw-video-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='270'%3E%3Crect width='480' height='270' fill='%230c4a6e'/%3E%3Ccircle cx='120' cy='100' r='60' fill='%23f59e0b' opacity='.4'/%3E%3Ccircle cx='330' cy='160' r='80' fill='%2338bdf8' opacity='.3'/%3E%3Crect x='60' y='200' width='280' height='14' rx='7' fill='%23ffffff' opacity='.55'/%3E%3Crect x='60' y='224' width='190' height='10' rx='5' fill='%23ffffff' opacity='.3'/%3E%3C/svg%3E" alt="视频封面：旧物改造：把一张旧木桌修成书桌">
+          <span class="gw-video-tag">手作 DIY</span>
+          <div class="gw-play-tri"><i></i></div>
+        </div>
+        <div class="gw-video-body">
+          <h3>旧物改造：把一张旧木桌修成书桌</h3>
+          <p>打磨、补缝、上蜡，全程使用常见工具。附材料清单与工时估算，周末就能动手。</p>
+          <div class="gw-video-foot">
+            <div class="gw-video-author">
+              <span class="gw-avatar" style="background:#0369a1">木</span>
+              <span>木作小事</span>
+            </div>
+            <div class="gw-video-ops">
+              <button class="gw-op-btn gw-like-btn" data-count="658">♡ 658</button>
+              <button class="gw-op-btn gw-fav-btn">☆ 收藏</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="gw-section gw-section-tint" id="gw-topics">
+    <div class="gw-sec-head">
+      <div>
+        <span class="gw-eyebrow">Series</span>
+        <h2 class="gw-h2">专题企划与共创计划</h2>
+      </div>
+      <p class="gw-sec-desc">由平台发起、创作者共同参与的系列企划，持续更新中，欢迎报名参与下一期创作挑战。</p>
+    </div>
+    <div class="gw-topic-grid">
+      <article class="gw-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='380'%3E%3Crect width='500' height='380' fill='%230f766e'/%3E%3Cg fill='%23fef3c7' opacity='.55'%3E%3Crect x='60' y='220' width='50' height='110'/%3E%3Crect x='130' y='170' width='50' height='160'/%3E%3Crect x='200' y='120' width='50' height='210'/%3E%3Crect x='270' y='190' width='50' height='140'/%3E%3Crect x='340' y='150' width='50' height='180'/%3E%3C/g%3E%3Ccircle cx='400' cy='90' r='44' fill='%23f59e0b'/%3E%3C/svg%3E" alt="专题封面：城市微光第三季·夜色手艺人">
+        <div class="gw-topic-txt">
+          <span class="gw-topic-status">更新中 · 第 8 集</span>
+          <h3>城市微光 第三季 · 夜色手艺人</h3>
+          <p>走进深夜仍亮着灯的小店，记录那些靠一双手维持生活秩序的人。</p>
+        </div>
+      </article>
+      <article class="gw-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='380'%3E%3Crect width='500' height='380' fill='%231e3a5f'/%3E%3Cpath d='M0 260 L140 160 L270 230 L400 120 L500 190 V380 H0Z' fill='%2338bdf8' opacity='.4'/%3E%3Ccircle cx='100' cy='90' r='38' fill='%23fef3c7'/%3E%3C/svg%3E" alt="专题封面：一条河的四季·在地影像档案">
+        <div class="gw-topic-txt">
+          <span class="gw-topic-status">更新中 · 第 5 集</span>
+          <h3>一条河的四季 · 在地影像档案</h3>
+          <p>用一年时间跟拍同一条河，收集沿岸居民的讲述与四季光影变化。</p>
+        </div>
+      </article>
+      <article class="gw-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='380'%3E%3Crect width='500' height='380' fill='%234c1d95'/%3E%3Cg fill='%23f0abfc' opacity='.6'%3E%3Ccircle cx='120' cy='120' r='30'/%3E%3Ccircle cx='240' cy='80' r='22'/%3E%3Ccircle cx='360' cy='140' r='36'/%3E%3C/g%3E%3Crect x='60' y='240' width='320' height='16' rx='8' fill='%23ffffff' opacity='.55'/%3E%3C/svg%3E" alt="专题封面：新手的第一次投稿·创作挑战">
+        <div class="gw-topic-txt">
+          <span class="gw-topic-status gw-done">已完结 · 共 12 集</span>
+          <h3>新手的第一次投稿 · 创作挑战</h3>
+          <p>面向零基础用户的投稿陪伴企划，完整记录十二位普通人从想拍到发布的全过程。</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="gw-section" id="gw-creators">
+    <div class="gw-sec-head">
+      <div>
+        <span class="gw-eyebrow">Creators</span>
+        <h2 class="gw-h2">创作者矩阵</h2>
+      </div>
+      <p class="gw-sec-desc">他们是 91干逼com 内容生态的中坚力量，点击卡片可查看创作者简介与代表作品。</p>
+    </div>
+    <div class="gw-creator-grid">
+      <article class="gw-creator-card" data-name="厨房笔记阿禾" data-dom="美食烹饪" data-works="186" data-fans="24.8万" data-bio="专注家常菜的拆解式教学，坚持每道菜标注失败原因与调整方案。">
+        <div class="gw-creator-avatar" style="background:linear-gradient(135deg,#f59e0b,#ea580c)">厨</div>
+        <h3>厨房笔记阿禾</h3>
+        <div class="gw-creator-dom">美食烹饪</div>
+        <p>把复杂菜谱拆成可执行的步骤，厨房小白也能一次成功。</p>
+        <div class="gw-creator-nums">
+          <div><b>186</b>作品</div>
+          <div><b>24.8万</b>粉丝</div>
+        </div>
+      </article>
+      <article class="gw-creator-card" data-name="山里来信" data-dom="治愈影像" data-works="94" data-fans="18.2万" data-bio="用长镜头记录山野四季，作品无旁白，强调声音与留白的叙事。">
+        <div class="gw-creator-avatar" style="background:linear-gradient(135deg,#0f766e,#065f46)">山</div>
+        <h3>山里来信</h3>
+        <div class="gw-creator-dom">治愈影像</div>
+        <p>没有台词的影像记录者，专注于自然声景与慢节奏表达。</p>
+        <div class="gw-creator-nums">
+          <div><b>94</b>作品</div>
+          <div><b>18.2万</b>粉丝</div>
+        </div>
+      </article>
+      <article class="gw-creator-card" data-name="木作小事" data-dom="手作 DIY" data-works="132" data-fans="15.6万" data-bio="旧物改造与木工入门教学，倡导耐用、可修复的生活器物观。">
+        <div class="gw-creator-avatar" style="background:linear-gradient(135deg,#92400e,#78350f)">木</div>
+        <h3>木作小事</h3>
+        <div class="gw-creator-dom">手作 DIY</div>
+        <p>用常见工具完成旧物改造，让每一件家具都有第二次生命。</p>
+        <div class="gw-creator-nums">
+          <div><b>132</b>作品</div>
+          <div><b>15.6万</b>粉丝</div>
+        </div>
+      </article>
+      <article class="gw-creator-card" data-name="创作者会客厅" data-dom="人物访谈" data-works="78" data-fans="31.4万" data-bio="深度访谈栏目，聚焦独立创作者与小微企业主的真实处境与选择。">
+        <div class="gw-creator-avatar" style="background:linear-gradient(135deg,#7c3aed,#4c1d95)">访</div>
+        <h3>创作者会客厅</h3>
+        <div class="gw-creator-dom">人物访谈</div>
+        <p>只问真问题，记录创作者在理想与现实之间的具体选择。</p>
+        <div class="gw-creator-nums">
+          <div><b>78</b>作品</div>
+          <div><b>31.4万</b>粉丝</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 作品墙 -->
+  <div class="gw-section-tint">
+    <section class="gw-section" id="gw-wall">
+      <div class="gw-sec-head">
+        <div>
+          <span class="gw-eyebrow">Gallery</span>
+          <h2 class="gw-h2">社区影像墙</h2>
+        </div>
+        <p class="gw-sec-desc">来自用户的真实画面，风格各异，尺寸混排。每一张背后都有一段值得停留的故事。</p>
+      </div>
+      <div class="gw-wall">
+        <div class="gw-wall-item gw-wall-big">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='420'%3E%3Crect width='600' height='420' fill='%230f766e'/%3E%3Cpath d='M0 300 L150 190 L300 260 L450 150 L600 230 V420 H0Z' fill='%23064e3b' opacity='.7'/%3E%3Ccircle cx='470' cy='90' r='52' fill='%23f59e0b'/%3E%3Crect x='60' y='340' width='220' height='14' rx='7' fill='%23ffffff' opacity='.6'/%3E%3C/svg%3E" alt="影像墙：山脊线的黄昏，光线落在草坡上">
+          <span>山脊线的黄昏 · 山里来信</span>
+        </div>
+        <div class="gw-wall-item gw-wall-wide">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='420' height='280'%3E%3Crect width='420' height='280' fill='%23f59e0b'/%3E%3Ccircle cx='330' cy='70' r='60' fill='%23fff7ed' opacity='.6'/%3E%3Crect x='40' y='190' width='200' height='14' rx='7' fill='%230b4f4a' opacity='.7'/%3E%3C/svg%3E" alt="影像墙：面案前的手，面粉落在木桌上">
+          <span>面案前的手 · 厨房笔记阿禾</span>
+        </div>
+        <div class="gw-wall-item gw-wall-tall">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='420'%3E%3Crect width='300' height='420' fill='%231e3a5f'/%3E%3Cpath d='M0 320 L100 220 L200 280 L300 180 V420 H0Z' fill='%2338bdf8' opacity='.45'/%3E%3Ccircle cx='90' cy='80' r='34' fill='%23fef3c7'/%3E%3C/svg%3E" alt="影像墙：晨雾中的河岸，倒影与石阶">
+          <span>晨雾河岸 · 一条河的四季</span>
+        </div>
+        <div class="gw-wall-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Crect width='300' height='300' fill='%234c1d95'/%3E%3Ccircle cx='90' cy='100' r='40' fill='%23f0abfc' opacity='.7'/%3E%3Ccircle cx='210' cy='180' r='58' fill='%23ffffff' opacity='.15'/%3E%3C/svg%3E" alt="影像墙：手绘分镜稿铺满桌面">
+          <span>分镜稿桌面 · 动画师手记</span>
+        </div>
+        <div class="gw-wall-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Crect width='300' height='300' fill='%23be123c'/%3E%3Crect x='40' y='80' width='220' height='140' rx='12' fill='%23ffffff' opacity='.2'/%3E%3Cpath d='M120 150 l24 24 60-60' stroke='%23fef3c7' stroke-width='10' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" alt="影像墙：选题会白板，评分表与批注">
+          <span>选题会白板 · 编辑部日常</span>
+        </div>
+        <div class="gw-wall-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Crect width='300' height='300' fill='%23065f46'/%3E%3Cg fill='%23a7f3d0' opacity='.7'%3E%3Crect x='50' y='170' width='28' height='70'/%3E%3Crect x='95' y='130' width='28' height='110'/%3E%3Crect x='140' y='90' width='28' height='150'/%3E%3C/g%3E%3Ccircle cx='230' cy='90' r='34' fill='%23fbbf24'/%3E%3C/svg%3E" alt="影像墙：阳台菜架旁的水壶与光影">
+          <span>阳台菜架 · 阳台绿手指</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 用户评价 -->
+  <section class="gw-section" id="gw-reviews">
+    <div class="gw-sec-head">
+      <div>
+        <span class="gw-eyebrow">Voices</span>
+        <h2 class="gw-h2">用户与创作者的真心话</h2>
+      </div>
+      <p class="gw-sec-desc">来自不同身份、不同使用场景的真实反馈，口碑来自日积月累的信任。</p>
+    </div>
+    <div class="gw-review-grid">
+      <article class="gw-review-card">
+        <div class="gw-review-top">
+          <span class="gw-avatar" style="background:#0f766e">林</span>
+          <div>
+            <div class="gw-review-name">林小满</div>
+            <div class="gw-review-role">普通观众 · 使用一年</div>
+          </div>
+        </div>
+        <div class="gw-review-stars">★★★★★</div>
+        <p>界面干净，没有让人分心的干扰。最喜欢「山里来信」那种没有旁白的片子，下班路上看一段，整个人会慢慢安静下来。</p>
+      </article>
+      <article class="gw-review-card">
+        <div class="gw-review-top">
+          <span class="gw-avatar" style="background:#2563eb">周</span>
+          <div>
+            <div class="gw-review-name">周牧野</div>
+            <div class="gw-review-role">认证创作者 · 工具区常客</div>
+          </div>
+        </div>
+        <div class="gw-review-stars">★★★★★</div>
+        <p>选题会的复盘视频我反复看了三遍，评分表模板直接拿来改就能用。平台对创作者的耐心是我愿意长期待在这儿的原因。</p>
+      </article>
+      <article class="gw-review-card">
+        <div class="gw-review-top">
+          <span class="gw-avatar" style="background:#f59e0b">陈</span>
+          <div>
+            <div class="gw-review-name">陈阿姨</div>
+            <div class="gw-review-role">普通观众 · 和女儿一起看</div>
+          </div>
+        </div>
+        <div class="gw-review-stars">★★★★☆</div>
+        <p>字大、按钮好找，我女儿教了一遍就会用。红烧肉那期照着做成功了，家里人夸了好几天，希望多出点家常菜教学。</p>
+      </article>
+      <article class="gw-review-card">
+        <div class="gw-review-top">
+          <span class="gw-avatar" style="background:#7c3aed">苏</span>
+          <div>
+            <div class="gw-review-name">苏叶</div>
+            <div class="gw-review-role">投稿用户 · 新人</div>
+          </div>
+        </div>
+        <div class="gw-review-stars">★★★★★</div>
+        <p>第一次投稿以为没人看，结果收到编辑的修改建议和十几条认真评论。这种被认真对待的感觉很难得。</p>
+      </article>
+      <article class="gw-review-card">
+        <div class="gw-review-top">
+          <span class="gw-avatar" style="background:#059669">吴</span>
+          <div>
+            <div class="gw-review-name">吴叙</div>
+            <div class="gw-review-role">行业从业者 · 内容研究</div>
+          </div>
+        </div>
+        <div class="gw-review-stars">★★★★★</div>
+        <p>把内容生态讲得这么具体的平台不多。专题企划的选题深度和更新节奏都稳定，看得出是长期主义在做内容。</p>
+      </article>
+      <article class="gw-review-card">
+        <div class="gw-review-top">
+          <span class="gw-avatar" style="background:#e11d48">许</span>
+          <div>
+            <div class="gw-review-name">许知远</div>
+            <div class="gw-review-role">普通观众 · 收藏夹重度用户</div>
+          </div>
+        </div>
+        <div class="gw-review-stars">★★★★★</div>
+        <p>收藏功能很好用，随手存下手作和收纳类的片子，周末照着动手。高清画质在手机上也看得清细节。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 榜单 -->
+  <section class="gw-section gw-section-tint" id="gw-rank">
+    <div class="gw-sec-head">
+      <div>
+        <span class="gw-eyebrow">Ranking</span>
+        <h2 class="gw-h2">本周内容榜单</h2>
+      </div>
+      <p class="gw-sec-desc">热度、口碑与新人三张榜单，数据每周一更新，用真实数据反映社区的选择。</p>
+    </div>
+    <div class="gw-rank-wrap">
+      <div class="gw-rank-box">
+        <h3>热度榜 <em>近 7 日</em></h3>
+        <ul class="gw-rank-list">
+          <li><span class="gw-rank-no">1</span><span class="gw-rank-txt">对话独立动画师：一个人做一部短片的五年</span><span class="gw-rank-val">8.6万</span></li>
+          <li><span class="gw-rank-no">2</span><span class="gw-rank-txt">三分钟学会家常红烧肉的收汁技巧</span><span class="gw-rank-val">7.2万</span></li>
+          <li><span class="gw-rank-no">3</span><span class="gw-rank-txt">内容创作者的选题会：如何筛出好故事</span><span class="gw-rank-val">6.4万</span></li>
+          <li><span class="gw-rank-no">4</span><span class="gw-rank-txt">周末去山里，拍一段没有台词的清晨</span><span class="gw-rank-val">5.9万</span></li>
+          <li><span class="gw-rank-no">5</span><span class="gw-rank-txt">阳台种菜的一年：从失败到满架收成</span><span class="gw-rank-val">5.1万</span></li>
+        </ul>
+      </div>
+      <div class="gw-rank-box">
+        <h3>口碑榜 <em>评分优先</em></h3>
+        <ul class="gw-rank-list">
+          <li><span class="gw-rank-no">1</span><span class="gw-rank-txt">一条河的四季 · 在地影像档案</span><span class="gw-rank-val">9.8 分</span></li>
+          <li><span class="gw-rank-no">2</span><span class="gw-rank-txt">城市微光 第三季 · 夜色手艺人</span><span class="gw-rank-val">9.7 分</span></li>
+          <li><span class="gw-rank-no">3</span><span class="gw-rank-txt">旧物改造：把一张旧木桌修成书桌</span><span class="gw-rank-val">9.5 分</span></li>
+          <li><span class="gw-rank-no">4</span><span class="gw-rank-txt">新手投稿陪伴企划 · 第十二集</span><span class="gw-rank-val">9.4 分</span></li>
+          <li><span class="gw-rank-no">5</span><span class="gw-rank-txt">阳台种菜的一年：从失败到满架收成</span><span class="gw-rank-val">9.2 分</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 灵感工具 -->
+  <section class="gw-section" id="gw-tools">
+    <div class="gw-sec-head">
+      <div>
+        <span class="gw-eyebrow">Toolkit</span>
+        <h2 class="gw-h2">创作灵感与实用工具</h2>
+      </div>
+      <p class="gw-sec-desc">为准备投稿的你准备的小工具，从标题到剪辑思路，让创意更快成型。</p>
+    </div>
+    <div class="gw-tool-grid">
+      <div class="gw-tool-card">
+        <h3>标题灵感生成</h3>
+        <p>输入你的内容方向，获取一组可修改的标题结构建议，避免流水账式命名。</p>
+        <button type="button" onclick="gwToolMsg('标题灵感已生成：试着用「具体对象 + 关键动作 + 结果」的结构，例如「一张旧木桌，我用一个周末把它修成书桌」。')">获取建议</button>
+      </div>
+      <div class="gw-tool-card">
+        <h3>剪辑节奏清单</h3>
+        <p>按片长与题材给出镜头时长参考，帮助新手控制节奏，减少拖沓与跳跃。</p>
+        <button type="button" onclick="gwToolMsg('剪辑节奏清单：3 分钟内短片建议开场 8 秒内进入主题，每 15 秒设置一个信息点，结尾留 5 秒情绪停顿。')">查看清单</button>
+      </div>
+      <div class="gw-tool-card">
+        <h3>投稿前自检</h3>
+        <p>画面清晰度、声音底噪、字幕规范、版权素材四项基础检查，提升过审效率。</p>
+        <button type="button" onclick="gwToolMsg('自检提示：请确认画面无遮挡、人声清晰、字幕不压画面主体、所用音乐与素材具备授权。')">开始自检</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 -->
+  <section class="gw-section gw-section-tint" id="gw-updates">
+    <div class="gw-sec-head">
+      <div>
+        <span class="gw-eyebrow">News</span>
+        <h2 class="gw-h2">企业动态与官方发布</h2>
+      </div>
+      <p class="gw-sec-desc">品牌资讯、内容更新与活动公告，均由 91干逼com 官方发布，保持透明与及时。</p>
+    </div>
+    <div class="gw-update-list">
+      <article class="gw-update-item">
+        <div class="gw-update-date">2026-11-18</div>
+        <div>
+          <h3>「城市微光」第三季新增 12 支原创短片上线</h3>
+          <p>本季新增内容覆盖六座城市，全部采用 4K HDR 拍摄与统一调色标准，可在专题页集中查看。</p>
+        </div>
+      </article>
+      <article class="gw-update-item">
+        <div class="gw-update-date">2026-11-12</div>
+        <div>
+          <h3>创作者扶持计划 2026 冬季批次开放报名</h3>
+          <p>面向持续更新三个月以上的原创作者，提供设备支持、剪辑指导与专题联合出品机会，报名截止 12 月 10 日。</p>
+        </div>
+      </article>
+      <article class="gw-update-item">
+        <div class="gw-update-date">2026-11-05</div>
+        <div>
+          <h3>平台高清标准升级，全面支持 4K HDR 播放</h3>
+          <p>全站精品内容陆续完成高清适配，同时开放原始文件下载权限，方便创作者二次剪辑与存档。</p>
+        </div>
+      </article>
+      <article class="gw-update-item">
+        <div class="gw-update-date">2026-10-28</div>
+        <div>
+          <h3>公益影像计划第二期完成，累计记录 9 项非遗技艺</h3>
+          <p>项目组走访多地，为传统手工艺留下完整影像档案，相关短片已在专题区免费开放浏览。</p>
+        </div>
+      </article>
+      <article class="gw-update-item">
+        <div class="gw-update-date">2026-10-16</div>
+        <div>
+          <h3>社区评论规范更新，强化真实讨论氛围</h3>
+          <p>新增评论引导提示与举报快速通道，持续优化互动体验，让有价值的讨论被更多人看到。</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="gw-section" id="gw-help">
+    <div class="gw-sec-head">
+      <div>
+        <span class="gw-eyebrow">Help</span>
+        <h2 class="gw-h2">常见问题</h2>
+      </div>
+      <p class="gw-sec-desc">关于浏览、投稿、版权与合作的高频问题，点击展开查看详细说明。</p>
+    </div>
+    <div class="gw-faq-wrap">
+      <details class="gw-faq-item">
+        <summary>如何在 91干逼com 投稿自己的作品？</summary>
+        <p>注册并完成实名认证后，在「联系我们」区域点击投稿入口，填写作品信息并上传文件。建议先阅读投稿指南中的画质与版权要求，审核通常在三个工作日内完成。</p>
+      </details>
+      <details class="gw-faq-item">
+        <summary>平台对视频画质有什么具体要求？</summary>
+        <p>推荐 1080P 及以上分辨率，横屏 16:9 或竖屏 9:16 均可。请注意保持画面稳定、人声清晰，避免明显底噪与过度压缩。精品内容可申请 4K 高清通道。</p>
+      </details>
+      <details class="gw-faq-item">
+        <summary>我使用的背景音乐需要授权吗？</summary>
+        <p>需要。请使用已获授权或明确允许商用的音乐素材，并在投稿时注明来源。平台提供正版音乐素材库供创作者选用，避免版权风险。</p>
+      </details>
+      <details class="gw-faq-item">
+        <summary>为什么我的作品没有通过审核？</summary>
+        <p>常见原因包括画面信息不完整、素材版权不明、内容重复度过高或标题与内容不符。审核结果会附具体说明，修改后可重新提交。</p>
+      </details>
+      <details class="gw-faq-item">
+        <summary>创作者扶持计划如何报名？</summary>
+        <p>在活动公告页下载报名表，附上近三个月作品链接与创作计划说明，发送至官方合作邮箱。评审结果会在截止后两周内公布。</p>
+      </details>
+      <details class="gw-faq-item">
+        <summary>品牌合作与商务洽谈怎么联系？</summary>
+        <p>可通过页面底部联系方式或合作邮箱沟通，请说明合作类型、目标与时间安排。我们会在两个工作日内回复初步意向。</p>
+      </details>
+      <details class="gw-faq-item">
+        <summary>收藏和点赞的数据会同步到其他设备吗？</summary>
+        <p>登录同一账号后，收藏与点赞记录会跟随账号同步。本页的互动按钮为演示交互，实际数据以登录后的账号状态为准。</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="gw-section" id="gw-contact">
+    <div class="gw-contact-band">
+      <div>
+        <h2>与 91干逼com 一起，把好故事讲下去</h2>
+        <p>无论是投稿、合作还是反馈建议，我们都愿意认真听。品牌官网长期开放沟通通道，期待与你建立真实的连接。</p>
+        <div class="gw-contact-actions">
+          <button class="gw-btn gw-btn-primary" onclick="gwOpenModal('gwSubmitModal')">我要投稿</button>
+          <button class="gw-btn gw-btn-ghost" onclick="gwOpenModal('gwFeedbackModal')">意见反馈</button>
+          <button class="gw-btn gw-btn-ghost" onclick="gwCopyLink()">复制本页链接</button>
+        </div>
+      </div>
+      <div class="gw-contact-info">
+        <div><b>合作邮箱：</b>brand@91ganbicom.example</div>
+        <div><b>投稿咨询：</b>submit@91ganbicom.example</div>
+        <div><b>办公时间：</b>周一至周五 10:00 – 19:00</div>
+        <div><b>品牌地址：</b>中国 · 城市影像中心 8 层</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="gw-footer">
+  <div class="gw-footer-inner">
+    <div>
+      <div class="gw-footer-brand">
+        <span class="gw-logo-mark">▶</span>
+        <span>91干逼com</span>
+      </div>
+      <p>91干逼com 官方网站，专注于原创视频内容与创作者生态建设。我们坚持正版、高清、专业的内容标准，以匠心与创新持续运营，努力成为用户首选与值得信赖的视频品牌。</p>
+    </div>
+    <div>
+      <h4>内容导航</h4>
+      <ul>
+        <li><a href="#gw-focus">焦点内容</a></li>
+        <li><a href="#gw-videos">热门视频</a></li>
+        <li><a href="#gw-topics">专题企划</a></li>
+        <li><a href="#gw-wall">社区影像墙</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>品牌与社区</h4>
+      <ul>
+        <li><a href="#gw-about">品牌故事</a></li>
+        <li><a href="#gw-creators">创作者矩阵</a></li>
+        <li><a href="#gw-updates">企业动态</a></li>
+        <li><a href="#gw-rank">内容榜单</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>支持与联系</h4>
+      <ul>
+        <li><a href="#gw-help">常见问题</a></li>
+        <li><a href="#gw-tools">创作工具</a></li>
+        <li><a href="#gw-contact">投稿入口</a></li>
+        <li><a href="#gw-contact">商务合作</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="gw-footer-bottom">
+    <span>© 2026 91干逼com 版权所有 · 持续运营中</span>
+    <span>品牌官网 · 原创内容保护 · 用户至上 · 社会责任</span>
+  </div>
+</footer>
+
+<div class="gw-toast" id="gwToast"></div>
+
+<button class="gw-backtop" id="gwBacktop" aria-label="回到顶部">↑</button>
+
+<div class="gw-modal-mask" id="gwCreatorModal">
+  <div class="gw-modal">
+    <button class="gw-modal-close" onclick="gwCloseModal('gwCreatorModal')" aria-label="关闭">×</button>
+    <h3 id="gwCreatorName">创作者</h3>
+    <p id="gwCreatorBio"></p>
+    <div class="gw-creator-nums" id="gwCreatorNums" style="justify-content:flex-start;gap:26px;"></div>
+  </div>
+</div>
+
+<div class="gw-modal-mask" id="gwSubmitModal">
+  <div class="gw-modal">
+    <button class="gw-modal-close" onclick="gwCloseModal('gwSubmitModal')" aria-label="关闭">×</button>
+    <h3>投稿入口</h3>
+    <p>填写基本信息，我们会在三个工作日内联系你。请确保作品为原创或已获授权。</p>
+    <input type="text" id="gwSubmitTitle" placeholder="作品标题" aria-label="作品标题">
+    <input type="text" id="gwSubmitContact" placeholder="联系方式（邮箱）" aria-label="联系方式">
+    <textarea id="gwSubmitDesc" rows="3" placeholder="一句话介绍你的作品" aria-label="作品介绍"></textarea>
+    <button class="gw-btn gw-btn-primary" onclick="gwSubmitWork()">提交投稿</button>
+  </div>
+</div>
+
+<div class="gw-modal-mask" id="gwFeedbackModal">
+  <div class="gw-modal">
+    <button class="gw-modal-close" onclick="gwCloseModal('gwFeedbackModal')" aria-label="关闭">×</button>
+    <h3>意见反馈</h3>
+    <p>你的每一条建议都会被认真阅读，帮助我们持续优化内容与体验。</p>
+    <textarea id="gwFeedbackText" rows="4" placeholder="请描述你遇到的问题或建议" aria-label="反馈内容"></textarea>
+    <button class="gw-btn gw-btn-primary" onclick="gwSendFeedback()">发送反馈</button>
+  </div>
+</div>
+
+<div class="gw-modal-mask" id="gwShareModal">
+  <div class="gw-modal">
+    <button class="gw-modal-close" onclick="gwCloseModal('gwShareModal')" aria-label="关闭">×</button>
+    <h3>分享这支内容</h3>
+    <p>选择合适的渠道，把好内容分享给朋友。</p>
+    <div class="gw-contact-actions">
+      <button class="gw-btn gw-btn-primary" onclick="gwShareTo('微信')">微信</button>
+      <button class="gw-btn gw-btn-ghost" onclick="gwShareTo('微博')">微博</button>
+      <button class="gw-btn gw-btn-ghost" onclick="gwShareTo('QQ')">QQ</button>
+    </div>
+  </div>
+</div>
+
+<script>
+function gwToast(msg){
+  var t=document.getElementById('gwToast');
+  t.textContent=msg;
+  t.classList.add('gw-show');
+  clearTimeout(t._timer);
+  t._timer=setTimeout(function(){t.classList.remove('gw-show');},2400);
+}
+
+function gwSearch(e){
+  e.preventDefault();
+  var v=document.getElementById('gwSearchInput').value.trim();
+  var hint=document.getElementById('gwSearchHint');
+  if(!v){
+    hint.textContent='请输入视频名称、创作者或专题关键词，例如「手作」「城市微光」。';
+  }else{
+    hint.textContent='已为你匹配「'+v+'」相关内容：热门视频 6 条、创作者 4 位、专题 2 个。可下滑浏览，或调整关键词继续搜索。';
+  }
+  hint.classList.add('gw-show');
+  return false;
+}
+
+var burger=document.getElementById('gwBurger');
+var mobileNav=document.getElementById('gwMobileNav');
+burger.addEventListener('click',function(){
+  burger.classList.toggle('gw-open');
+  mobileNav.classList.toggle('gw-open');
+});
+mobileNav.querySelectorAll('a').forEach(function(a){
+  a.addEventListener('click',function(){
+    burger.classList.remove('gw-open');
+    mobileNav.classList.remove('gw-open');
+  });
+});
+
+document.querySelectorAll('.gw-like-btn').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var base=parseInt(btn.getAttribute('data-count'),10)||0;
+    if(btn.classList.contains('gw-liked')){
+      btn.classList.remove('gw-liked');
+      btn.textContent='♡ '+(base-1);
+    }else{
+      btn.classList.add('gw-liked');
+      btn.textContent='♥ '+(base+1);
+      gwToast('已点赞，感谢你的认可');
+    }
+  });
+});
+
+document.querySelectorAll('.gw-fav-btn').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    if(btn.classList.contains('gw-active')){
+      btn.classList.remove('gw-active');
+      btn.textContent='☆ 收藏';
+    }else{
+      btn.classList.add('gw-active');
+      btn.textContent='★ 已收藏';
+      gwToast('已加入收藏夹');
+    }
+  });
+});
+
+var curCreatorCard=null;
+document.querySelectorAll('.gw-creator-card').forEach(function(card){
+  card.addEventListener('click',function(){
+    curCreatorCard=card;
+    document.getElementById('gwCreatorName').textContent=card.getAttribute('data-name');
+    document.getElementById('gwCreatorBio').textContent=card.getAttribute('data-bio');
+    var nums=document.getElementById('gwCreatorNums');
+    nums.innerHTML='<div><b>'+card.getAttribute('data-works')+'</b>作品</div><div><b>'+card.getAttribute('data-fans')+'</b>粉丝</div><div><b>'+card.getAttribute('data-dom')+'</b>擅长领域</div>';
+    gwOpenModal('gwCreatorModal');
+  });
+});
+
+function gwOpenModal(id){
+  document.getElementById(id).classList.add('gw-show');
+  document.body.style.overflow='hidden';
+}
+function gwCloseModal(id){
+  document.getElementById(id).classList.remove('gw-show');
+  document.body.style.overflow='';
+}
+document.querySelectorAll('.gw-modal-mask').forEach(function(mask){
+  mask.addEventListener('click',function(e){
+    if(e.target===mask){
+      mask.classList.remove('gw-show');
+      document.body.style.overflow='';
+    }
+  });
+});
+
+function gwSubmitWork(){
+  var t=document.getElementById('gwSubmitTitle').value.trim();
+  var c=document.getElementById('gwSubmitContact').value.trim();
+  if(!t||!c){
+    gwToast('请填写作品标题与联系方式');
+    return;
+  }
+  gwCloseModal('gwSubmitModal');
+  gwToast('投稿已提交，我们将在三个工作日内与你联系');
+  document.getElementById('gwSubmitTitle').value='';
+  document.getElementById('gwSubmitContact').value='';
+  document.getElementById('gwSubmitDesc').value='';
+}
+
+function gwSendFeedback(){
+  var v=document.getElementById('gwFeedbackText').value.trim();
+  if(!v){
+    gwToast('请先填写反馈内容');
+    return;
+  }
+  gwCloseModal('gwFeedbackModal');
+  gwToast('反馈已收到，感谢你的建议');
+  document.getElementById('gwFeedbackText').value='';
+}
+
+function gwToolMsg(msg){
+  gwToast(msg);
+}
+
+function gwShareTo(channel){
+  gwCloseModal('gwShareModal');
+  gwToast('已生成分享卡片，可通过'+channel+'发送给好友');
+}
+
+function gwCopyLink(){
+  var link=window.location.origin+window.location.pathname;
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(link).then(function(){
+      gwToast('链接已复制到剪贴板');
+    }).catch(function(){
+      gwToast('链接已准备好，请手动复制地址栏内容');
+    });
+  }else{
+    gwToast('当前环境暂不支持自动复制，请手动复制地址栏内容');
+  }
+}
+
+var backtop=document.getElementById('gwBacktop');
+window.addEventListener('scroll',function(){
+  if(window.scrollY>520){
+    backtop.classList.add('gw-show');
+  }else{
+    backtop.classList.remove('gw-show');
+  }
+});
+backtop.addEventListener('click',function(){
+  window.scrollTo({top:0,behavior:'smooth'});
+});
+
+document.querySelectorAll('a[href^="#gw-"]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var target=document.querySelector(a.getAttribute('href'));
+    if(target){
+      e.preventDefault();
+      var offset=100;
+      var top=target.getBoundingClientRect().top+window.scrollY-offset;
+      window.scrollTo({top:top,behavior:'smooth'});
+    }
+  });
+});
+
+document.querySelectorAll('.gw-video-card').forEach(function(card){
+  var shareBtn=document.createElement('button');
+  card.addEventListener('dblclick',function(){
+    gwOpenModal('gwShareModal');
+  });
+});
+</script>
+</body>
+  </html>
